@@ -207,13 +207,31 @@ h1 {
 	margin-bottom:60px;
 }
 
-.reviews p,.schedule p {
+.reviews p {
 	font-family:"raleway",sans-serif;
 	color:#000;
 	font-size:30px;
 	font-weight:300;
 	line-height:40px;
 	margin-left:-3px;
+}
+.schedule {
+	font-family:"raleway",sans-serif;
+	color:#000;
+	font-size:30px;
+	font-weight:300;
+	line-height:40px;
+}
+.schedule table {
+	margin-left:-3px;
+	
+}
+.schedule table tr{
+	vertical-align: top;
+}
+.schedule table .time {
+	padding-right: 55px;
+	font-weight:600;
 }
 
 .reviews {
@@ -243,7 +261,9 @@ h1 {
 .mentor-item {
 	padding-bottom:46px;
 }
-
+.reviews p {
+	padding-bottom: 15px;
+}
 h2 {
 	font-family:"raleway",sans-serif;
 	color:#000;
@@ -328,6 +348,9 @@ section {
 	header {
 		height:650px;
 	}
+	.schedule table .time {
+	padding-right: 35px;
+}
 }
 @media(max-width:767px) {
 	.container {
@@ -412,5 +435,8 @@ h3 {
 .mentor-caption {
 	font-size: 12px;
 	line-height:16px;
+}
+.schedule table .time {
+	padding-right: 15px;
 }
 }
