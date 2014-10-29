@@ -66,12 +66,25 @@ header .cover {
 }
 
 header .cover-heading {
-	font-size:82px;
 	font-weight:600;
 	float:left;
 	line-height:80px;
 	clear:both;
 	padding-left:65px;
+}
+
+header .cover-heading .behance {
+	font-size:82px;
+	color:#fff;
+}
+
+header .cover-heading .portfolio {
+	font-size:92px;
+}
+
+header .cover-heading .vilnius {
+	padding-left:5px;
+	font-size:92px;
 }
 
 header .cover-details .pad-biski {
@@ -136,7 +149,7 @@ div.icon:hover {
 }
 
 .arrow-down {
-	padding-top:80px;
+	padding-top:75px;
 	margin-left:-51px;
 }
 
@@ -169,13 +182,9 @@ div.icon:hover {
 	opacity:.8;
 }
 
-.btn {
-}
-
 .registracija {
 	text-align:center;
 	padding-top:62px;
-	padding-bottom:40px;
 }
 
 h1 {
@@ -196,10 +205,6 @@ h1 {
 
 .speakers .horizontal-heading-rule,.mentors .horizontal-heading-rule {
 	margin-bottom:60px;
-}
-
-.speakers {
-	margin-bottom:20px;
 }
 
 .reviews p,.schedule p {
@@ -224,10 +229,6 @@ h1 {
 	line-height:20px;
 }
 
-.speaker-caption {
-	margin-top:0px;
-}
-
 .mentor-caption {
 	line-height:20px;
 }
@@ -240,7 +241,7 @@ h1 {
 }
 
 .mentor-item {
-	padding-bottom:36px;
+	padding-bottom:46px;
 }
 
 h2 {
@@ -257,10 +258,6 @@ h3 {
 	font-size:24px;
 	font-weight:600;
 	line-height:26px;
-}
-
-footer {
-	padding-top:60px;
 }
 
 .speakers-item .speaker-link,.mentor-item .mentor-link {
@@ -282,16 +279,138 @@ footer {
 .speakers-item .speaker-link .speaker-hover:hover,.mentor-item .mentor-link .mentor-hover:hover {
 	opacity:1;
 }
-@media (max-width:992px) {
-header .cover-date,header .cover-venue {
-	font-size:24px;
-	line-height:35px;
-}
-header .cover-details {
-	
-float:left;
-	padding-top:10px;
-	padding-right:0px;
 
+section {
+	padding-bottom:60px;
+}
+
+/* -- RESPONSIVE --*/
+@media(max-width:991px) {
+	header .cover-heading {
+		line-height:70px;
+	}
+	
+	header .cover-heading .behance {
+		font-size:62px;
+	}
+	
+	header .cover-heading .portfolio {
+		font-size:72px;
+	}
+	
+	header .cover-heading .vilnius {
+		font-size:72px;
+	}
+	header .cover-date,header .cover-venue {
+		font-size:25px;
+		line-height:27px;
+	}
+	header .cover-details {
+		float:right;
+		padding-top:40px;
+		padding-right:50px;
+	}
+	
+	.vertical-rule {
+		background-color:#fff;
+		width:3px;
+		height:50px;
+		float:left;
+		margin-left:-42px;
+	}
+	
+	.horizontal-rule {
+		background-color:#fff;
+		width:50px;
+		height:3px;
+		margin-top:16px;
+	}
+	header {
+		height:650px;
+	}
+}
+@media(max-width:767px) {
+	.container {
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.navbar-header {
+		padding-left:40px;
+	}
+	header .cover {
+		padding-top:86px;
+	}
+	header .cover-heading {
+		line-height:60px;
+		padding-left:35px;
+	}
+	
+	header .cover-heading .behance {
+		font-size:52px;
+	}
+	
+	header .cover-heading .portfolio {
+		font-size:62px;
+	}
+	
+	header .cover-heading .vilnius {
+		font-size:62px;
+	}
+	header .cover-date,header .cover-venue {
+		font-size:20px;
+		line-height:23px;
+	}
+	header .cover-details {
+		float:left;
+		padding-top:40px;
+		padding-right:20px;
+		padding-left: 40px;
+	}
+	header .cover-details .pad-biski {
+	left:0px;
+	padding-bottom: 20px;
+}
+.horizontal-rule {
+		background-color:#fff;
+		width:50px;
+		height:3px;
+		margin-top:16px;
+	}
+	header {
+		height:580px;
+	}
+	.arrow-down {
+	padding-top:15px;
+	margin-left:-51px;
+}
+h1 {
+	font-size:42px;
+}
+.reviews {
+	padding-top: 10px;
+}
+.reviews p,.schedule p {
+	font-size:24px;
+	line-height:33px;
+}
+.btn-default {
+	margin-left: -15px;
+	}
+	section {
+		padding-bottom: 40px;
+	}
+	.horizontal-heading-rule {
+		margin-bottom: 30px;
+		}
+		.speakers .horizontal-heading-rule,.mentors .horizontal-heading-rule {
+	margin-bottom:40px;
+}
+h3 {
+	font-size:16px;
+	line-height:20px;
+}
+.mentor-caption {
+	font-size: 12px;
+	line-height:16px;
 }
 }
