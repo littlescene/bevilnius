@@ -280,6 +280,7 @@ h1 {
 
 .mentor-caption {
 	line-height:20px;
+	padding: 0 15px;
 }
 
 .speaker-info p {
@@ -404,11 +405,12 @@ footer {
 	}
 	
 	.mentor-item {
-		min-height:420px;
+		min-height:440px;
+		padding-bottom: 0px;
 	}
 }
 
-@media(max-width:767px) {
+@media(max-width:768px) {
 	.container {
 		padding-left:15px;
 		padding-right:15px;
@@ -521,6 +523,7 @@ footer {
 	}
 	
 	.mentor-item {
-		min-height:380px;
+		min-height:428px;
+		padding-bottom: 0px;
 	}
 }
