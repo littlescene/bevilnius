@@ -291,8 +291,8 @@ h1 {
 }
 
 .mentor-item {
-	padding-bottom:46px;
-	min-height:430px;
+	padding-bottom:10px;
+	min-height:515px;
 }
 
 .reviews p {
@@ -405,7 +405,7 @@ footer {
 	}
 	
 	.mentor-item {
-		min-height:440px;
+		min-height:490px;
 		padding-bottom: 0px;
 	}
 }
@@ -523,7 +523,7 @@ footer {
 	}
 	
 	.mentor-item {
-		min-height:428px;
+		min-height:435px;
 		padding-bottom: 0px;
 	}
 }
